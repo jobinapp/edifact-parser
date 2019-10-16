@@ -1,0 +1,15 @@
+{
+  "name": "edifact-parser",
+  "version": "0.0.1",
+  "description": "EDIFACT parser based on the edi npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "EDI",
+    "EDIFACT"
+  ],
+  "author": "Ricardo Veronese Ricci",
+  "license": "MIT"
+}
