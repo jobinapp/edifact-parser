@@ -25,7 +25,7 @@ const sbatch = segments[0];
 mbatch.mid(); // UNH first element
 mbatch.mtype(); // UNH second element, zero component
 mbatch.msubtype(); // BGM first element, zero component
-mbatch.mref(); // BGM second element
+mbatch.oref(); // BGM second element
 mbatch.mproduct(); // MKS first element
 ```
 
@@ -58,7 +58,7 @@ sbatch.deliveryTimeRange();
 ```javascript
 sbatch.mrefCode();
 sbatch.mrefType();
-sbatch.oref();
+sbatch.mref();
 sbatch.refCode();
 sbatch.refType();
 sbatch.ref();
