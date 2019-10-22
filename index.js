@@ -499,7 +499,7 @@ EDI.prototype.msubtype = function() {
         .component(0)
         .toString();
 };
-EDI.prototype.mref = function() {
+EDI.prototype.oref = function() {
     return this.segment("BGM")
         .element(2)
         .toString();
@@ -556,7 +556,7 @@ EDI.prototype.dateType = function() {
 
     return getDateType(code);
 };
-EDI.prototype.deliveryTime = function() {
+EDI.prototype.mDate = function() {
     return this.segment("DTM+137")
         .element(1)
         .component(1)
@@ -640,6 +640,7 @@ EDI.prototype.refVAT = function() {
         .replace("?", "")
         .toString();
 };
+// TODO: check this
 EDI.prototype.refs = function() {
     return this.segments("RFF");
 };

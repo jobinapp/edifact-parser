@@ -58,7 +58,7 @@ sbatch.deliveryTimeRange();
 ```javascript
 sbatch.mrefCode();
 sbatch.mrefType();
-sbatch.mref();
+sbatch.oref();
 sbatch.refCode();
 sbatch.refType();
 sbatch.ref();
